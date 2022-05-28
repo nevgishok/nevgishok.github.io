@@ -1,0 +1,197 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.container
+{
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* Стили для меню */
+
+.header
+{
+	color: white;
+	background: #151c39e8;
+	padding: 20px;
+}
+
+.menu-item
+{
+	list-style: none;
+	/*display: inline;*/
+}
+
+.menu-linc
+{
+	color: white;
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+.head
+{
+	padding: 0 50px;
+	/*display: flex;
+	justify-content: space-between;*/
+}
+
+.header-logo
+{
+	/*display: flex;
+	line-height: 50px;*/
+}
+
+.header-menu
+{
+	/*line-height: 50px;*/
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	padding: 0 50px;
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* Стили для банера */
+
+.banner-section
+{
+	background: url(img/banner-bg.jpg);
+	background-size: cover;
+	padding: 100px 0;
+}
+
+.banner-title
+{
+	font-size: 48px;
+}
+
+.banner-text
+{
+	color: white;
+	text-align: center;
+}
+
+/* Стили для карточек */
+
+.cards-section
+{
+	padding: 50px 0px;
+}
+
+.cards-title, .cards-description
+{
+	color: #151c39;
+	text-align: center;
+}
+
+.card
+{
+	padding: 25px;
+	margin-top: 25px;
+	width: 25%;
+	background: white;
+	box-shadow: 0px 2px 7px #9e90ff;
+	text-align: center;
+}
+
+.card-link
+{
+	text-decoration: none;
+	color: white;
+}
+
+.card-button
+{
+	text-align: center;
+	background: #151c39;
+	padding: 10px 70px;
+	border-radius: 10px;
+}
+
+.card-title, .card-text
+{
+	margin-bottom: 10px;
+}
+
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer
+{
+	background: url(img/footer-bg.jpg);
+	background-size: cover;
+	padding: 100px 0px;
+}
+
+.copiright
+{
+	color: white;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-logo{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.footer-search{
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+    align-items: center;
+}
+
+.footer-search-input{
+    height: 40px;
+    flex-grow: 3;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer-search-button{
+    height: 40px;
+    flex-grow: 2;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.copyright
+{
+	color: white;
+}
+		
