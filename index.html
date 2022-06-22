@@ -37,6 +37,47 @@
 		display: flex;
 		justify-content: space-between;
 	  }
+	  	/* Стили для карточек */
+
+		.cards-section
+		{
+			padding: 50px 0px;
+		}
+
+		.cards-title, .cards-description
+		{
+			color: #151c39;
+			text-align: center;
+		}
+
+		.card
+		{
+			padding: 25px;
+			margin-top: 25px;
+			width: 25%;
+			background: white;
+			box-shadow: 0px 2px 7px #9e90ff;
+			text-align: center;
+		}
+
+		.card-link
+		{
+			text-decoration: none;
+			color: white;
+		}
+
+		.card-button
+		{
+			text-align: center;
+			background: #151c39;
+			padding: 10px 70px;
+			border-radius: 10px;
+		}
+
+		.card-title, .card-text
+		{
+			margin-bottom: 10px;
+		}
 	</style>
 	</head>
 	<body
@@ -62,5 +103,40 @@
 		 <div>
 		 </div>
 	</header>
-	</body>
+	<main class="main">
+		<!--Начало блока банера-->
+		<section class="banner-section">
+			<div class="container">
+				<div class="banner-text">
+					<h2 class="banner-title">
+					Зоомагазин
+					</h2>
+					<div class="banner-description">
+					Заведи питомца!
+					</div>
+				</div>
+			</div>
+		</section>
+	<section class="cards-section">
+			<div class= "container">
+				<div  class="cards-text"> 
+					<h1 class="cards-title"> Рекомендуем для вас!</h1>
+					<div class="cards-description">  Специально для вас!
+					</div>
+				</div>
+				<div class="cards"> 
+					<div class="cards-row"> 
+						<div class="card">
+							<img class="card-img" src="phots/krasnoi-pandi.jpg"> 
+							<h3 class="card-title"> Кот Василий </h3>
+							<div class="card-text"> Ищет добрых хозяев </div>
+							<div class="card-button">
+								<a class="card-link"> узнать подробности</a>
+							<div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		</body>
 </html>
