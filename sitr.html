@@ -1,65 +1,141 @@
 <html>
 	<head>
-	<style>
-	   p
-	*
-	{
-	  margin: 0;
-	  padding: 0;
-	}
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	
-	.container
-	 {
-	   padding: 0 15px;
-	   margin: 0 auto;
-	 }
-	/* HEADER */
-	 
-	 .header
-      {
-	   color: #ffffff;
-	   background: #7196ea;
-	   padding: 20px;
-	   background: url(phots/footer-bg.jpg) no-repeat;
-	  }
-	  .menu-item
-	  {
-	    list-style: none;
-		display: inline;
-		 padding: 0 1000px;	 
-	  }
-	  
-	  
-	  .head 
-	  {
-	    padding: 0 100px;
+	<style>
+		.button
+	{
+		cursor:help
+	}
+		.footer
+	{
+		background: url(phots/footer-background.jpg);
+		background-size: cover;
+	}
+
+	.copyright
+	{
+		color: white;
+	}
+
+	.footer-row
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.social-networks
+	{
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.footer-logo
+	{
+		margin: 10px;
+		width: 60px;
+		height: 60px;
+	}
+
+	.footer-search
+	{
 		display: flex;
 		justify-content: space-between;
-	  }
+		margin-top:30px;
+		align-items: center;
+	}
+
+	.footer-search-input
+	{
+		height: 40px;
+		flex-grow: 3;
+		margin-right: 20px;
+		border-radius: 10px;
+		border: none;
+	}
+
+	.footer-search-button
+	{
+		height: 40px;
+		flex-grow: 2;
+		border-radius: 10px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
 	</style>
 	</head>
-	<body
-	<header class="header">
-	  <div class="container head">
-	     <div class="heder-logo"> 
-            <div class="">		 
-		      <img class="logo-img" width="50" height="50"src="phots/pandss.png">
-		      <h1 class="logo-title">pandas</h1>
-	     </div>
-		 <div class="heder-menu"> 
-		   <ul class="menu">
-		      <li class="menu-item">
-			  <a class="menu-linc href="#"><a href="pandas.html">pandas</a></a>
-			  </li>
-			  <li class="menu-item">
-			  <a class="menu-linc href="#"><a href="panda.mems.html">pandas.mems</a></a>
-			  </li>
-			  <li class="menu-item" >
-			  <a class="menu-linc href="#"><a href="factspanda.html">facts about pandas</a>
-			  </li>
-		   </ul>
-		 <div>
-		 </div>
+	<body>
+	<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <div class="container-fluid">
+	   <img class="logo-img" width="50" height="50"src="phots/pandss.png">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Переключить навигацию">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarColor02">
+		  <ul class="navbar-nav me-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Главнвя
+				</font></font><span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(Текущий)</font></font></span>
+			  </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Факты</font></font></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Панды(виды)</font></font></a>
+			</li>
 	</header>
-	</body>
+	<div class = 'cards-text'>
+	    <h1 class = 'cards-title'>Сайт про панд </h1>
+     </div>
+<main class="main">
+			<div class="row d-flex justify-content-center">
+				<div class="card col-lg-3 p-3 m-3" style="width: 18rem;">
+					<img src="phots/redsssspand.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Красная панда</h5>
+						<p class="card-text">Млекопитающее из семейства пандовых, подотряда псообразных, отряда хищных, которое, тем не менее, питается преимущественно растительностью; размером примерно соответствует крупным особям домашней кошки...</p>
+						<button type="button" class="btn btn-light"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BD%D0%B4%D0%B0">Переход</a></font></font></button>
+					</div>
+				</div>
+				<div class="card col-lg-3 p-3 m-3" style="width: 18rem;">
+					<img src="phots/q13-full.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Панда(обыкновенная)</h5>
+						<p class="card-text">Вид всеядных млекопитающих из семейства медвежьих со своеобразной чёрно-белой окраской шерсти, обладающих некоторыми признаками енотов...</p>
+						<button type="button" class="btn btn-light"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BD%D0%B4%D0%B0">Переход</a></font></font></button>
+					</div>
+				</div>
+				<div class="card col-lg-3 p-3 m-3" style="width: 18rem;">
+					<img src="phots/YNR2.gif" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Интересные факты</h5>
+						<p class="card-text">Согласно легенде, панда когда-то была полностью белым медведем. Когда маленькая девочка попыталась спасти детеныша панды от нападения леопарда, леопард вместо этого убил девочку. Панды пришли на ее похороны с повязками из черного пепла. Вытирая глаза, обнимая друг друга и закрывая уши, на их теле оставались пятна черного пепла </p>
+						<button type="button" class="btn btn-light"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><a href= "https://www.chinahighlights.ru/giant-panda/facts.htm">Переход</a></font></font></button>
+					</div>
+				</div> 
+			</div>
+</main>
+		<footer class = 'footer'>
+        <div class = 'container'>
+            <div class = 'footer-row'>
+                <div class = 'search'>
+                    <div class = 'copyright'>контакты автора</div>
+                    <div class="footer-search">
+                        <input type="text" class="footer-search-input">
+                        <button class="footer-search-button">Subscribe</button>
+                    </div>
+                </div>
+                <div class = 'social-networks'>
+                    <a href="#"><img class = 'footer-logo'width="50" height="50"src='phots/vk.png'</a></a>
+                    <a href="#"><img class = 'footer-logo'width="50" height="50" src='phots/tg.png'></a>
+                    <a href="#"><img class = 'footer-logo'width="50" height="50" src='phots/tw.png'></a> 
+                </div>
+            </div>
+        </div>
+    </footer>
+		</body>
 </html>
